@@ -579,3 +579,77 @@ body {
     display: flex;
   }
 }
+
+/* SMARTPHONE */
+@media (max-width: 600px) {
+
+  header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  nav.active,
+  .auth.active {
+    width: 80%;
+    right: 10px;
+  }
+
+  .hero img {
+    height: 300px;
+  }
+
+  .hero-text {
+    top: 30%;
+    left: 5%;
+  }
+
+  .hero-text h1 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .hero-text p {
+    font-size: 13px;
+    width: 90%;
+  }
+
+  .search-bar {
+    width: 90%;
+  }
+
+  .venue-left h2 {
+    font-size: 22px;
+  }
+
+  .venue-left p {
+    font-size: 14px;
+  }
+
+  .image-grid img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .competition-images img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .why-images img {
+    width: 120px;
+    height: 160px;
+  }
+
+  footer {
+    padding: 20px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .col {
+    margin-bottom: 20px;
+  }
+}
